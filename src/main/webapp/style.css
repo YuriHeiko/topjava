@@ -1,0 +1,21 @@
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 3px;
+}
+
+table {
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+    margin-bottom: 10px;
+}
